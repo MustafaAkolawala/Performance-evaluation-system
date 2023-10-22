@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Student Exam Performance Indicator</title>
-    <link rel="stylesheet" type="text/css" href="styles_home.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles_home.css') }}">
 </head>
 <body>
-    <nav class="menu-bar">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="https://github.com/MustafaAkolawala/Performance-evaluation-system" target="_blank">GitHub</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Student Performance Indicator</h1>
+        <div class="buttons">
+            <button class="button">Home</button>
+            <button class="button">GitHub</button>
+        </div>
+    </header>
 
     <div class="container">
         <h1>Student Exam Performance Indicator</h1>
