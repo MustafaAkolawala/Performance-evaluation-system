@@ -1,0 +1,13 @@
+[ 2023-10-28 21:06:22,157 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-28 21:06:22,161 ] 187 werkzeug - INFO -  * Debugger PIN: 101-461-368
+[ 2023-10-28 21:06:22,261 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:22] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2023-10-28 21:06:22,494 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:22] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:22,589 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:22] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:22,598 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:22] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:22,928 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:22] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:23,817 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:23] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2023-10-28 21:06:24,133 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:24] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:24,134 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:24] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:24,397 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:24] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:24,443 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:06:24] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:06:57,014 ] 187 werkzeug - INFO -  * Detected change in 'c:\\users\\0men\\desktop\\mini project stuff\\performance-evaluation-system\\app.py', reloading

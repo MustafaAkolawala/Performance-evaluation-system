@@ -1,0 +1,28 @@
+[ 2023-10-28 21:06:58,216 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-28 21:06:58,219 ] 187 werkzeug - INFO -  * Debugger PIN: 101-461-368
+[ 2023-10-28 21:07:00,366 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:07:00] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:07:00,678 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:07:00] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:07:27,110 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:07:27] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:07:27,427 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:07:27] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:09:16,962 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:16] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:09:17,209 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:17] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:09:17,675 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:17] "[33mGET /index.html HTTP/1.1[0m" 404 -
+[ 2023-10-28 21:09:30,478 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:30] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:09:30,739 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:30] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:09:31,132 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:31] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:09:31,466 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:31] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:09:32,202 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:32] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:09:32,525 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:32] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:09:38,099 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:38] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:09:38,426 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:38] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:09:39,050 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:39] "GET / HTTP/1.1" 200 -
+[ 2023-10-28 21:09:39,370 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:09:49,052 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:49] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:09:49,374 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:09:49] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:10:48,830 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:10:48] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:10:49,152 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:10:49] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:28:04,695 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:28:04] "GET / HTTP/1.1" 200 -
+[ 2023-10-28 21:28:04,960 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:28:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:28:05,813 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:28:05] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 21:28:06,138 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:28:06] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-28 21:32:29,603 ] 187 werkzeug - INFO -  * Detected change in 'c:\\users\\0men\\desktop\\mini project stuff\\performance-evaluation-system\\app.py', reloading
