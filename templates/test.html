@@ -1,198 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Performance Indicator</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #000; /* Set the background color to black */
-            margin: 0;
-            padding: 0;
+            background-color: #000; /* Set black background */
+            color: #fff; /* Set text color to white */
+            font-family: Arial, sans-serif;
         }
-        header {
-            background-color: #1F7A8C; 
-            
-            display: flex;
-            justify-content: space-between; /* Align content to the left and right */
-            align-items: center; /* Vertically center the content */
-            padding: 20px 10px; /* Adjust padding */
+        h1 {
+            color: #00FFFF; /* Set teal accent color for headings */
         }
-        
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        table, th, td {
-            border: 1px solid #444; /* Darker border color */
+        p {
+            line-height: 1.5;
         }
-        th, td {
-            padding: 12px;
-            text-align: center;
-        }
-        th {
-            background-color: #00FFFF; /* Set table header background color to teal/cyan */
-            color: #000; /* Set table header text color to black */
-        }
-        tr:nth-child(even) {
-            background-color: #111; /* Even row background color */
-        }
-        tr:hover {
-            background-color: #333; /* Hovered row background color */
-        }
-        .criteria-label {
-            display: block;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-        .criteria-select, .marks-input, .name-input {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #00FFFF; /* Textbox border color */
-            border-radius: 4px;
-            color: #00FFFF; /* Textbox text color */
-            background-color: #222; /* Textbox background color */
-        }
-        .criteria-select option {
-            background-color: #000; /* Dropdown option background color */
-        }
-
     </style>
 </head>
 <body>
-    <header>
-        <h1>Student Performance Indicator</h1>
-        <div class="buttons">
-            <button class="button">Home</button>
-            <button class="button">GitHub</button>
-        </div>
-    </header>
     <div class="container">
-        <h2>Enter Student Information</h2>
-        <form id="studentForm">
-            <label for="name" class="criteria-label">Student Name:</label>
-            <input type="text" id="name" class="name-input" placeholder="Enter student name">
-            <label for="gender" class="criteria-label">Gender:</label>
-            <select id="gender" class="criteria-select">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            <label for="race" class="criteria-label">Race or Ethnicity:</label>
-            <select id="race" class="criteria-select">
-                <option value="groupA">Group A</option>
-                <option value="groupB">Group B</option>
-                <option value="groupC">Group C</option>
-                <option value="groupD">Group D</option>
-                <option value="groupE">Group E</option>
-            </select>
-            <label for="education" class "criteria-label">Parental Level of Education:</label>
-            <select id="education" class="criteria-select">
-                <option value="someHighSchool">Some High School</option>
-                <option value="highSchool">High School</option>
-                <option value="someCollege">Some College</option>
-                <option value="associateDegree">Associate Degree</option>
-                <option value="bachelorsDegree">Bachelor's Degree</option>
-                <option value="mastersDegree">Master's Degree</option>
-            </select>
-            <label for="lunch" class="criteria-label">Lunch Type:</label>
-            <select id="lunch" class="criteria-select">
-                <option value="standard">Standard</option>
-                <option value="freeReduced">Free/Reduced</option>
-            </select>
-            <label for="testPrep" class="criteria-label">Test Preparation Course:</label>
-            <select id="testPrep" class="criteria-select">
-                <option value="none">None</option>
-                <option value="completed">Completed</option>
-            </select>
-            <label for="writingScore" class="criteria-label">Writing Score (out of 100):</label>
-            <input type="number" id="writingScore" class="marks-input" placeholder="Enter writing score">
-            <label for="readingScore" class="criteria-label">Reading Score (out of 100):</label>
-            <input type="number" id="readingScore" class="marks-input" placeholder="Enter reading score">
-            <button type="submit">Submit</button>
-        </form>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Gender</th>
-                <th>Race</th>
-                <th>Parental Education</th>
-                <th>Lunch Type</th>
-                <th>Test Prep</th>
-                <th>Writing Score</th>
-                <th>Reading Score</th>
-                <th>Type of Learner</th>
-            </tr>
-            <!-- Student data will be displayed here -->
-        </table>
+        <h1>About Our Student Prediction System</h1>
+        <p>Welcome to our Student Prediction System, a cutting-edge platform designed to help students succeed in their academic journey. We are committed to providing accurate and insightful predictions to guide students toward their goals.</p>
+
+        <h2>Our Team</h2>
+        <p>We are a dedicated team of data scientists, educators, and developers working together to create a system that empowers students. Meet some of our key team members:</p>
+        <ul>
+            <li><strong>John Doe</strong> - Chief Data Scientist</li>
+            <li><strong>Jane Smith</strong> - Education Specialist</li>
+            <li><strong>Mark Johnson</strong> - Lead Developer</li>
+        </ul>
+
+        <h2>Our Mission</h2>
+        <p>Our mission is to utilize advanced data analysis and machine learning to provide students with personalized insights and recommendations. We believe that every student has unique potential, and our system is here to help them realize it.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feedback, or inquiries, please don't hesitate to get in touch with us:</p>
+        <p><strong>Email:</strong> <a href="mailto:contact@studentpredictionsystem.com">contact@studentpredictionsystem.com</a></p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+
+        <p>Follow us on social media for updates and news:</p>
+        <p><strong>Twitter:</strong> <a href="https://twitter.com/studentpredictions" target="_blank">@studentpredictions</a></p>
+        <p><strong>Facebook:</strong> <a href="https://www.facebook.com/studentpredictions" target="_blank">/studentpredictions</a></p>
     </div>
-    <script>
-        const studentForm = document.getElementById('studentForm');
-        const nameInput = document.getElementById('name');
-        const genderSelect = document.getElementById('gender');
-        const raceSelect = document.getElementById('race');
-        const educationSelect = document.getElementById('education');
-        const lunchSelect = document.getElementById('lunch');
-        const testPrepSelect = document.getElementById('testPrep');
-        const writingScoreInput = document.getElementById('writingScore');
-        const readingScoreInput = document.getElementById('readingScore');
-        const table = document.querySelector('table');
-    
-        // Function to determine the learner type based on scores
-        function determineLearnerType(writingScore, readingScore) {
-            // Example: If the average score is 70 or below, the student is considered a "Slow Learner."
-            const averageScore = (parseFloat(writingScore) + parseFloat(readingScore)) / 2;
-            return averageScore <= 70 ? "Slow Learner" : "Fast Learner";
-        }
-    
-        studentForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Retrieve values from the form inputs
-            const name = nameInput.value;
-            const gender = genderSelect.value;
-            const race = raceSelect.value;
-            const education = educationSelect.value;
-            const lunch = lunchSelect.value;
-            const testPrep = testPrepSelect.value;
-            const writingScore = writingScoreInput.value;
-            const readingScore = readingScoreInput.value;
-    
-            // Determine the learner type
-            const learnerType = determineLearnerType(writingScore, readingScore);
-    
-            // Create a new row and populate it with the data, including the learner type
-            const newRow = table.insertRow(-1);
-            const cell1 = newRow.insertCell(0);
-            cell1.textContent = name; // Student name
-            const cell2 = newRow.insertCell(1);
-            cell2.textContent = gender;
-            const cell3 = newRow.insertCell(2);
-            cell3.textContent = race;
-            const cell4 = newRow.insertCell(3);
-            cell4.textContent = education;
-            const cell5 = newRow.insertCell(4);
-            cell5.textContent = lunch;
-            const cell6 = newRow.insertCell(5);
-            cell6.textContent = testPrep;
-            const cell7 = newRow.insertCell(6);
-            cell7.textContent = writingScore;
-            const cell8 = newRow.insertCell(7);
-            cell8.textContent = readingScore;
-            const cell9 = newRow.insertCell(8);
-            cell9.textContent = learnerType; // Learner type
-    
-            // Clear the form inputs for the next entry
-            nameInput.value = "";
-            genderSelect.value = "male"; // Set default values
-            raceSelect.value = "groupA";
-            educationSelect.value = "someHighSchool";
-            lunchSelect.value = "standard";
-            testPrepSelect.value = "none";
-            writingScoreInput.value = "";
-            readingScoreInput.value = "";
-        });
-    </script>    
-    </table>
 </body>
 </html>
