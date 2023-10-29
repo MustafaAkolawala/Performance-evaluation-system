@@ -44,3 +44,5 @@
 [ 2023-10-28 21:56:29,904 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:56:29] "GET /static/css/styles_home.css HTTP/1.1" 200 -
 [ 2023-10-28 21:56:37,688 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:56:37] "GET /predictdata HTTP/1.1" 200 -
 [ 2023-10-28 21:56:38,002 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 21:56:38] "GET /static/css/styles_home.css HTTP/1.1" 200 -
+[ 2023-10-28 22:01:34,857 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 22:01:34] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-28 22:01:35,122 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Oct/2023 22:01:35] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
