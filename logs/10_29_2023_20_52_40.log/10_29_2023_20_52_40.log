@@ -8,3 +8,4 @@
 [ 2023-10-29 20:53:21,717 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:53:21] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
 [ 2023-10-29 20:53:42,900 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:53:42] "POST /predictdata HTTP/1.1" 200 -
 [ 2023-10-29 20:53:43,218 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:53:43] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-29 20:56:58,121 ] 187 werkzeug - INFO -  * Detected change in 'c:\\Users\\0men\\Desktop\\Mini project stuff\\Performance-evaluation-system\\app.py', reloading

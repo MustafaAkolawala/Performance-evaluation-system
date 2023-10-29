@@ -41,13 +41,18 @@ def predict_datapoint():
         if data.race_ethnicity == "group E":
                 race_ethnicity = "Kashmiri"
 
+        if data.lunch == "free/reduced":
+                job = "Part time job"
+        if data.lunch == "standard":
+                job = "Full time student"
+
         with open('artifacts./savedinfo.csv', 'a', newline='') as csv_file:
             csv_writer = csv.writer(csv_file)
             csv_writer.writerow([
                 data.gender,
                 race_ethnicity,
                 data.parental_level_of_education,
-                data.lunch,
+                job,
                 data.test_preparation_course,
                 data.reading_score,
                 data.writing_score
