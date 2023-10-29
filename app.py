@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
+import csv
 
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
@@ -28,6 +29,30 @@ def predict_datapoint():
             writing_score=float(request.form.get('reading_score'))
 
         )
+
+        if data.race_ethnicity == "group A":
+                race_ethnicity = "Punjabi"
+        if data.race_ethnicity == "group B":
+                race_ethnicity = "Bengali"
+        if data.race_ethnicity == "group C":
+                race_ethnicity = "Marathi"
+        if data.race_ethnicity == "group D":
+                race_ethnicity = "Tamil"
+        if data.race_ethnicity == "group E":
+                race_ethnicity = "Kashmiri"
+
+        with open('artifacts./savedinfo.csv', 'a', newline='') as csv_file:
+            csv_writer = csv.writer(csv_file)
+            csv_writer.writerow([
+                data.gender,
+                race_ethnicity,
+                data.parental_level_of_education,
+                data.lunch,
+                data.test_preparation_course,
+                data.reading_score,
+                data.writing_score
+            ])
+
         pred_df = data.get_data_as_data_frame()
         print(pred_df)
 

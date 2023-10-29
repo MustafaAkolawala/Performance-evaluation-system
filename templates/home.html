@@ -65,7 +65,7 @@
   </div>
 
     <div class="container">    
-        <form action="{{ url_for('predict_datapoint')}}" method="POST" id="studentForm">
+        <form action="{{ url_for('predict_datapoint')}}" method="POST"  >
             <div class="form-group">
                 <label for="name" class="criteria-label">Student Name:</label>
                 <input type="text" id="name" class="name-input" placeholder="Enter student name">
@@ -74,8 +74,8 @@
                 <label for="gender">Gender</label>
                 <select id="gender" name="gender" required>
                     <option value="" disabled selected>Select your Gender</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
                 </select>
             </div>
             
@@ -83,11 +83,11 @@
                 <label for="ethnicity">Race or Ethnicity</label>
                 <select id="ethnicity" name="ethnicity" required>
                     <option value="" disabled selected>Select Ethnicity</option>
-                    <option value="Punjabi">Punjabi</option>
-                    <option value="Bengali">Bengali</option>
-                    <option value="Marathi">Marathi</option>
-                    <option value="Tamil">Tamil</option>
-                    <option value="Kashmiri">Kashmiri</option>
+                    <option value="group A">Punjabi</option>
+                    <option value="group B">Bengali</option>
+                    <option value="group C">Marathi</option>
+                    <option value="group D">Tamil</option>
+                    <option value="group E">Kashmiri</option>
                 </select>
             </div>
             
@@ -95,11 +95,12 @@
                 <label for="parent-education">Parental Level of Education</label>
                 <select id="parent-education" name="parental_level_of_education" required>
                     <option value="" disabled selected>Select Parent Education</option>
-                    <option value="Associate's Degree">Associate's Degree</option>
-                    <option value="Bachelor's Degree">Bachelor's Degree</option>
-                    <option value="Master's Degree">Master's Degree</option>
-                    <option value="College">College</option>
-                    <option value="High School">High School</option>                   
+                    <option value="associate's degree">Associate's Degree</option>
+                    <option value="bachelor's degree">Bachelor's Degree</option>
+                    <option value="high school">High School</option>
+                    <option value="master's degree">Master's Degree</option>
+                    <option value="some college">Some College</option>
+                    <option value="some high school">Some High School</option>                  
                 </select>
             </div>
             
@@ -107,8 +108,8 @@
                 <label for="lunch">Lunch Type</label>
                 <select id="lunch" name="lunch" required>
                     <option value="" disabled selected>Select Lunch Type</option>
-                    <option value="Free/Reduced">Free/Reduced</option>
-                    <option value="Standard">Standard</option>
+                    <option value="free/reduced">Free/Reduced</option>
+                    <option value="standard">Standard</option>
                 </select>
             </div>
             
@@ -116,8 +117,8 @@
                 <label for="test-course">Test Preparation Course</label>
                 <select id="test-course" name="test_preparation_course" required>
                     <option value="" disabled selected>Select Test Course</option>
-                    <option value="None">None</option>
-                    <option value="Completed">Completed</option>
+                    <option value="none">None</option>
+                    <option value="completed">Completed</option>
                 </select>
             </div>
             
@@ -134,7 +135,7 @@
             </div>
 
             <div class="form-group">
-                <input class="btn-primary" type="submit" value="Predict your English Score" required />
+                <input class="btn-primary" type="submit" value="Predict your English Score" required/>
             </div>
         </form>
         
@@ -143,7 +144,7 @@
         </h2>
     </div>
 </div>
-<table class="resulttab" >
+<!-- <table class="resulttab" >
     <tr>
         <th>Name</th>
         <th>Gender</th>
@@ -155,18 +156,18 @@
         <th>Reading Score</th>
         <th>Type of Learner</th>
     </tr>
-    </table>
-  <script>
-        const studentForm = document.getElementById('studentForm');
-        const nameInput = document.getElementById('name');
-        const genderSelect = document.getElementById('gender');
-        const raceSelect = document.getElementById('ethnicity');
-        const educationSelect = document.getElementById('parent-education');
-        const lunchSelect = document.getElementById('lunch');
-        const testPrepSelect = document.getElementById('test-course');
-        const writingScoreInput = document.getElementById('writing-score');
-        const readingScoreInput = document.getElementById('reading-score');
-        const table = document.querySelector('table');
+    </table>  -->
+    <script>
+        // const studentForm = document.getElementById('studentForm');
+        // const nameInput = document.getElementById('name');
+        // const genderSelect = document.getElementById('gender');
+        // const raceSelect = document.getElementById('ethnicity');
+        // const educationSelect = document.getElementById('parent-education');
+        // const lunchSelect = document.getElementById('lunch');
+        // const testPrepSelect = document.getElementById('test-course');
+        // const writingScoreInput = document.getElementById('writing-score');
+        // const readingScoreInput = document.getElementById('reading-score');
+        // const table = document.querySelector('table');
     
         // Function to determine the learner type based on scores
         function determineLearnerType(writingScore, readingScore) {
@@ -187,25 +188,45 @@
       const readingScore = readingScoreInput.value;
       const learnerType = determineLearnerType(writingScore, readingScore);
 
-      const newRow = table.insertRow(-1);
-      const cell1 = newRow.insertCell(0);
-      cell1.textContent = name; 
-      const cell2 = newRow.insertCell(1);
-      cell2.textContent = gender;
-      const cell3 = newRow.insertCell(2);
-      cell3.textContent = race;
-      const cell4 = newRow.insertCell(3);
-      cell4.textContent = education;
-      const cell5 = newRow.insertCell(4);
-      cell5.textContent = lunch;
-      const cell6 = newRow.insertCell(5);
-      cell6.textContent = testPrep;
-      const cell7 = newRow.insertCell(6);
-      cell7.textContent = writingScore;
-      const cell8 = newRow.insertCell(7);
-      cell8.textContent = readingScore;
-      const cell9 = newRow.insertCell(8);
-      cell9.textContent = learnerType; // Learner type
+      // Create a CSV formatted string
+    //     const csvData = `${name},${gender},${race},${education},${lunch},${testPrep},${writingScore},${readingScore},${learnerType}\n`;
+
+    //     // Call a function to save the data to a CSV file
+    //     saveDataToCSV(csvData);
+    });
+
+    // function saveDataToCSV(data) {
+    //     // You can send the data to the server here or use client-side file generation (not recommended for sensitive data)
+    //     // Example using client-side download:
+    //     const blob = new Blob([data], { type: "text/csv" });
+    //     const url = window.URL.createObjectURL(blob);
+    //     const a = document.createElement("a");
+    //     a.href = url;
+    //     a.download = "../artifacts/savedinfo.csv";
+    //     document.body.appendChild(a);
+    //     a.click();
+    //     window.URL.revokeObjectURL(url);
+    // }
+
+    //   const newRow = table.insertRow(-1);
+    //   const cell1 = newRow.insertCell(0);
+    //   cell1.textContent = name; 
+    //   const cell2 = newRow.insertCell(1);
+    //   cell2.textContent = gender;
+    //   const cell3 = newRow.insertCell(2);
+    //   cell3.textContent = race;
+    //   const cell4 = newRow.insertCell(3);
+    //   cell4.textContent = education;
+    //   const cell5 = newRow.insertCell(4);
+    //   cell5.textContent = lunch;
+    //   const cell6 = newRow.insertCell(5);
+    //   cell6.textContent = testPrep;
+    //   const cell7 = newRow.insertCell(6);
+    //   cell7.textContent = writingScore;
+    //   const cell8 = newRow.insertCell(7);
+    //   cell8.textContent = readingScore;
+    //   const cell9 = newRow.insertCell(8);
+    //   cell9.textContent = learnerType; // Learner type
 
       // Clear the form inputs for the next entry
       nameInput.value = "";
@@ -216,7 +237,6 @@
       testPrepSelect.value = "none";
       writingScoreInput.value = "";
       readingScoreInput.value = "";
-    });
   </script>  
 </body>
 </html>

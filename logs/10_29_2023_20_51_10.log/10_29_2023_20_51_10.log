@@ -1,0 +1,3 @@
+[ 2023-10-29 20:51:10,144 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-29 20:51:10,148 ] 187 werkzeug - INFO -  * Debugger PIN: 101-461-368
+[ 2023-10-29 20:51:18,896 ] 187 werkzeug - INFO -  * Detected change in 'c:\\users\\0men\\desktop\\mini project stuff\\performance-evaluation-system\\app.py', reloading

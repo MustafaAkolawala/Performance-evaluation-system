@@ -1,0 +1,10 @@
+[ 2023-10-29 20:43:13,708 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-29 20:43:13,714 ] 187 werkzeug - INFO -  * Debugger PIN: 101-461-368
+[ 2023-10-29 20:43:14,733 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:43:14] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-29 20:43:15,168 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:43:15] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-29 20:43:15,530 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:43:15] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-29 20:43:24,439 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:43:24] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-10-29 20:43:24,761 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:43:24] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-29 20:43:49,867 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:43:49] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-10-29 20:43:50,188 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Oct/2023 20:43:50] "[36mGET /static/css/styles_home.css HTTP/1.1[0m" 304 -
+[ 2023-10-29 20:50:55,465 ] 187 werkzeug - INFO -  * Detected change in 'c:\\users\\0men\\desktop\\mini project stuff\\performance-evaluation-system\\app.py', reloading
