@@ -26,9 +26,19 @@ def predict_datapoint():
             lunch=request.form.get('lunch'),
             test_preparation_course=request.form.get('test_preparation_course'),
             reading_score=float(request.form.get('writing_score')),
-            writing_score=float(request.form.get('reading_score'))
-
+            writing_score=float(request.form.get('reading_score')),
         )
+
+        def determineLearnerType():
+            # Example: If the average score is 50 or below, the student is considered a "Slow Learner."
+            averageScore = (data.writing_score + data.reading_score) / 2
+            if averageScore<=50:
+                  learnertype1="Slow Learner"
+            else:
+                  learnertype1="Fast Learner" 
+            return learnertype1     
+        
+        learnertype = determineLearnerType()
 
         if data.race_ethnicity == "group A":
                 race_ethnicity = "Punjabi"
@@ -46,6 +56,14 @@ def predict_datapoint():
         if data.lunch == "standard":
                 job = "Full time student"
 
+        pred_df = data.get_data_as_data_frame()
+        print(pred_df)
+
+        print("Before Prediction")
+        predict_pipeline = PredictPipeline()
+        results = predict_pipeline.predict(pred_df)
+        print("after prediction")
+
         with open('artifacts./savedinfo.csv', 'a', newline='') as csv_file:
             csv_writer = csv.writer(csv_file)
             csv_writer.writerow([
@@ -55,18 +73,16 @@ def predict_datapoint():
                 job,
                 data.test_preparation_course,
                 data.reading_score,
-                data.writing_score
+                data.writing_score,
+                learnertype,
+                results
             ])
 
-        pred_df = data.get_data_as_data_frame()
-        print(pred_df)
-
-        print("Before Prediction")
-        predict_pipeline = PredictPipeline()
-        results = predict_pipeline.predict(pred_df)
-        print("after prediction")
 
         return render_template('home.html',results=results[0])
+
+        
+    
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",debug=True)

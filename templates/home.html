@@ -170,30 +170,25 @@
         // const table = document.querySelector('table');
     
         // Function to determine the learner type based on scores
-        function determineLearnerType(writingScore, readingScore) {
-            // Example: If the average score is 50 or below, the student is considered a "Slow Learner."
-            const averageScore = (parseFloat(writingScore) + parseFloat(readingScore)) / 2;
-            return averageScore <= 50 ? "Slow Learner" : "Fast Learner";
-        }
-    studentForm.addEventListener('submit', function(e) {
-      e.preventDefault();
+    // studentForm.addEventListener('submit', function(e) {
+    //   e.preventDefault();
       
-      const name = nameInput.value;
-      const gender = genderSelect.value;
-      const race = raceSelect.value;
-      const education = educationSelect.value;
-      const lunch = lunchSelect.value;
-      const testPrep = testPrepSelect.value;
-      const writingScore = writingScoreInput.value;
-      const readingScore = readingScoreInput.value;
-      const learnerType = determineLearnerType(writingScore, readingScore);
+    //   const name = nameInput.value;
+    //   const gender = genderSelect.value;
+    //   const race = raceSelect.value;
+    //   const education = educationSelect.value;
+    //   const lunch = lunchSelect.value;
+    //   const testPrep = testPrepSelect.value;
+    //   const writingScore = writingScoreInput.value;
+    //   const readingScore = readingScoreInput.value;
+    //   const learnerType = determineLearnerType(writingScore, readingScore);
 
       // Create a CSV formatted string
     //     const csvData = `${name},${gender},${race},${education},${lunch},${testPrep},${writingScore},${readingScore},${learnerType}\n`;
 
     //     // Call a function to save the data to a CSV file
     //     saveDataToCSV(csvData);
-    });
+    // });
 
     // function saveDataToCSV(data) {
     //     // You can send the data to the server here or use client-side file generation (not recommended for sensitive data)
