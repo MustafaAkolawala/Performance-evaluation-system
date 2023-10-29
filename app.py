@@ -79,7 +79,7 @@ def predict_datapoint():
             ])
 
 
-        return render_template('home.html',results=results[0])
+        return render_template('home.html',results=results[0], learnertype=learnertype)
 
         
     
