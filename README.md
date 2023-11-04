@@ -11,16 +11,6 @@
 ### Project Guides
 1. PROF. MOHD ASHFAQUE SHAIKH  [ Primary Guide ] 
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model Training](#model-training)
-- [Results](#results)
-- [Project Contents](#project-contents)
-
 ### Deployment Steps
 Please follow the below steps to run this project.
 1. clone the repository `git clone https://github.com/MustafaAkolawala/Performance-evaluation-system.git`
