@@ -1,6 +1,15 @@
-# Predicting-Student-Performance-Using-Machine-Learning
+# Student Evaluation performance System
 
-This project aims to predict student performance based on various factors such as gender, ethnicity, parental level of education, lunch type, test preparation course, and exam scores. The machine learning model trained on a dataset of student information can provide insights into predicting a student's performance in mathematics.
+**Abstract** : Our project introduces a comprehensive Performance Evaluation System designed to anticipate a student's academic success and learning style based on a set of input features. Leveraging advanced data analysis techniques and machine learning algorithms, this system considers factors such as previous test scores, parental education levels, and additional relevant attributes to predict a student's future academic performance. Furthermore, our system goes beyond conventional performance prediction by also identifying if a student falls into the category of "slow learner." By discerning learning characteristics, we can provide tailored support and guidance, ultimately contributing to improved educational outcomes. This project is poised to empower educators and institutions with data-driven insights, helping them better understand and support students on their unique academic journeys
+
+### Project Members
+1. AKOLAWALA MUSTAFA HUSEIN  [ Team Leader ] 
+2. HASAN SHADAAB NAJMUL 
+3. MASTIM AYAN AHMED QASID 
+4. KHAN HAMZA GULREIZ 
+
+### Project Guides
+1. PROF. MOHD ASHFAQUE SHAIKH  [ Primary Guide ] 
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -12,32 +21,29 @@ This project aims to predict student performance based on various factors such a
 - [Results](#results)
 - [Project Contents](#project-contents)
 
-## Introduction
+### Deployment Steps
+Please follow the below steps to run this project.
+1. clone the repository `git clone https://github.com/MustafaAkolawala/Performance-evaluation-system.git`
+2. install the required packages `pip install -r requirements.txt`
+3. run the `app.py` python script
+3. once the server is running, go on your browser on this link `http://localhost:5000`
+4. follow the steps displayed and run the program accordingly
 
-In today's educational landscape, understanding the factors that contribute to a student's academic performance is crucial for educators, parents, and policymakers. This project leverages machine learning techniques to predict a student's performance in mathematics based on various factors. By providing accurate predictions, this tool can help identify students who may need additional support and tailor educational strategies accordingly.
-The Student Exam Performance Predictor project is developed for educational purposes to showcase the application of machine learning techniques in predicting student performance. The results obtained from this project are based on a specific dataset and machine learning model, and should not be considered as definitive or accurate predictions for real-world scenarios. The primary goal of this project is to demonstrate the end-to-end process of developing a machine learning model and provide insights into the factors influencing student performance.
+### Subject Details
+- Class : TE (COMP) Div A - 2023-2024
+- Subject : Mini Project : 2A (MP2A(P)(2019))
+- Project Type : Mini Project
 
+### Platform, Libraries and Frameworks used
+1. [Python](https://www.python.org)
+2. [Jupyter](https://jupyter.org)
+3. [TensorFlow](https://tensorflowjs.com)
+4. [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 
-## Features
-- Predicts student performance in mathematics based on multiple factors.
-- Provides insights into the influence of gender, ethnicity, parental level of education, lunch type, and test preparation course on student performance.
-- User-friendly interface for inputting student information and obtaining predictions.
+### Dataset Used
+1. [Kaggle - Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977). It contains information about students' demographics, parental education, lunch type, test preparation course, and their corresponding math scores.
 
-## Installation
+### References
+- [https://kaggle.com/dataset1](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)
+- IEEE standard journal paper `Mehil Shah, Yogesh Gupta , "Student Performance Assessment and Prediction System" using Machine Learning`
 
-1. Clone the repository: `git clone https://github.com/MustafaAkolawala/Performance-evaluation-system.git`
-
-
-## Usage
-
-
-## Dataset
-
-
-## Model Training
-
-The machine learning model is trained using a supervised learning algorithm, such as a decision tree or random forest, to predict the math score based on the input features. The dataset is split into training and testing sets to evaluate the model's performance.
-
-## Results
-
-## Project Contents

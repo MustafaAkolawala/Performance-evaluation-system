@@ -1,0 +1,15 @@
+[ 2023-10-30 14:43:33,797 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-10-30 14:43:33,839 ] 224 werkzeug - INFO -  * Debugger PIN: 797-271-972
+[ 2023-10-30 14:43:46,115 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 14:43:46] "GET / HTTP/1.1" 200 -
+[ 2023-10-30 14:43:46,433 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 14:43:46] "GET /static/css/styles.css HTTP/1.1" 200 -
+[ 2023-10-30 14:43:46,522 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 14:43:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-10-30 14:43:48,303 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 14:43:48] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-10-30 14:43:48,550 ] 224 werkzeug - INFO - 127.0.0.1 - - [30/Oct/2023 14:43:48] "GET /static/css/styles_home.css HTTP/1.1" 200 -
+[ 2023-10-30 18:01:44,396 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\app.py', reloading
+[ 2023-10-30 18:01:44,420 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\src\\components\\data_ingestion.py', reloading
+[ 2023-10-30 18:01:44,421 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\src\\components\\data_transformation.py', reloading
+[ 2023-10-30 18:01:44,421 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\src\\components\\model_trainer.py', reloading
+[ 2023-10-30 18:01:44,421 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\src\\exception.py', reloading
+[ 2023-10-30 18:01:44,422 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\src\\logger.py', reloading
+[ 2023-10-30 18:01:44,422 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2023-10-30 18:01:44,422 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\mustu\\Performance-evaluation-system\\src\\utils.py', reloading
